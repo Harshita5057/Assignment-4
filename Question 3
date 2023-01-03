@@ -1,0 +1,13 @@
+import random
+i=0
+while i<10:
+    i+=1
+    a=random.randint(0,10)
+    b=random.randint(0,10)
+    print("question",i,"=",a,"*",b)
+    ans=int(input("enter your answer"))
+
+    if ans==a*b:
+        print("correct answer")
+    else:
+        print("wrong answer.The correct answer is",a*b)
