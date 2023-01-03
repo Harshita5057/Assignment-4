@@ -1,0 +1,13 @@
+x=int(input("enter marks of student"))
+if x<25:
+    print("The grade of student is F")
+elif 25<=x<45:
+    print("The grade of student is E")
+elif 45<=x<50:
+    print("The grade of student is D")
+elif 50<=x<60:
+    print("The grade of student is c")
+elif 60<=x<80:
+    print("The grade of student is B")
+elif x>=80:
+    print("The grade of student is A")
